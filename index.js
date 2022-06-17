@@ -1,9 +1,22 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let reversed = word.split("").reverse().join("");
+  if (reversed === word) {
+    return true;
+  } else {
+    return false;
+  }
 }
+isPalindrome("musa")
 
 /* 
   Add your pseudocode here
+  reverse the input string
+
+if the reversed string is the same as the input
+  return true
+else
+  return false
 */
 
 /*
